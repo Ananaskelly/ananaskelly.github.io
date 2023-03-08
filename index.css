@@ -3,7 +3,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    font-family: "Crimson Text", serif;
+    font-family: "Roboto", serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 145%;
@@ -16,9 +16,21 @@ body {
     min-width: 300px;
 }
 
+table {
+    /*border: 1px solid black;*/
+    /*border-collapse: collapse;*/
+    width: 100%
+}
+
+td {
+        /*border: 1px solid black;*/
+        /*border-collapse: collapse;*/
+    width: 25%
+}
+
 h1, h2, h3, h4 {
-    font-family: "Open Sans", sans-serif;
-    color: rgb(36, 41, 46);
+    font-family: "Genos", sans-serif;
+    color: black;
 }
 
 h1 {
@@ -99,13 +111,14 @@ hr {
 p {
     margin: 15px 0px 20px 0px;
     padding-right: 5px;
+    text-align: center;
 }
 
 .section {
     margin-bottom: 100px;
     width: 90%;
     margin: auto;
-    max-width: 660px;
+    align: center;
 }
 
 .toc > li {
@@ -124,13 +137,21 @@ p {
     bottom: 60px;
 }
 
+.text3 {
+    text-align: left;
+}
+
+.text4 {
+    font-size: 16px;
+}
+
 .labeled-audio {
     text-align: center;
     display: inline;
     max-width: 350px;
     min-width: 275px;
     flex: 1 1 275px;
-    margin: 5px 10px;
+    margin: 5px 20px;
     position: relative;
 }
 
